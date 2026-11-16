@@ -107,7 +107,7 @@ function createOptionsPanel() {
         if (evt instanceof KeyboardEvent) {
           document.activeElement.click();
         }
-      } else if (evt.keyCode === 27) {
+      } else if (evt.keyCode === 27 || evt.keyCode === 461) {
         // Back button
         showOptionsPanel(false);
       }
@@ -197,7 +197,7 @@ const eventHandler = (evt) => {
     evt.defaultPrevented
   );
 
-  if (getKeyColor(evt.charCode) === 'green') {
+  if (getKeyColor(evt.charCode) === 'green' || evt.keyCode === 457) {
     console.debug('Taking over!');
 
     evt.preventDefault();

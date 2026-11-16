@@ -28,7 +28,12 @@ function concatSearchParams(a, b) {
 
 export function handleLaunch(params) {
   console.info('handleLaunch', params);
+  if (params.tvlightOptions && window.ytaf_showOptionsPanel) {
+    window.ytaf_showOptionsPanel(true);
+    return;
+  }
   let ytURL = getYTURL();
+  if (params.tvlightOptions) ytURL.searchParams.set('tvlightOptions', '1');
 
   // We use our custom "target" param, since launches with "contentTarget"
   // parameter do not respect "handlesRelaunch" appinfo option. We still

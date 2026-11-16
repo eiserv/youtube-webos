@@ -10,3 +10,8 @@ function applyTheme() {
 }
 configAddChangeListener('liquidGlass', applyTheme);
 applyTheme();
+
+// Gives the MR22 remote (without physical colour keys) a path via TVLight's app menu.
+if (new URLSearchParams(window.location.search).get('tvlightOptions') === '1') {
+  window.ytaf_showOptionsPanel(true);
+}
