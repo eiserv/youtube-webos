@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="tvlight-glass" lang="de">
+  <meta charset="utf-8" />
+  <title>YouTube Glass preview</title>
+  <link rel="stylesheet" href="../src/ui.css" />
+  <link rel="stylesheet" href="../src/liquid-glass.css" />
+  <style>
+    html {
+      font-size: 24px;
+      background: #111722;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(130deg, #374f64, #111722 65%);
+    }
+    nav {
+      padding: 2rem;
+      color: #dcecff;
+    }
+    main {
+      margin: 3rem;
+      display: flex;
+      gap: 1rem;
+    }
+    article {
+      width: 28%;
+      height: 10rem;
+      background: #354152;
+      border-radius: 1rem;
+      padding: 1rem;
+    }
+  </style>
+  <nav>YouTube Glass</nav>
+  <main>
+    <article>Entdecken</article>
+    <article>Abos</article>
+    <article>Mediathek</article>
+  </main>
+  <div class="ytaf-ui-container">
+    <h1>YouTube · Liquid Glass</h1>
+    <div id="options"></div>
+    <small class="ytaf-ui-sponsor"
+      >Sponsor segments skipping - https://sponsor.ajay.app</small
+    >
+    <div class="ytaf-ui-version">v0.5.4 · TVLight</div>
+  </div>
+  <script type="module">
+    import { configGetDesc } from '../src/config.js';
+    const keys = [
+      'liquidGlass',
+      'enableAdBlock',
+      'upgradeThumbnails',
+      'hideLogo',
+      'showWatch',
+      'removeShorts',
+      'forceHighResVideo',
+      'removeEndscreen',
+      'autoAccountSelect',
+      'enableSponsorBlock',
+      'enableSponsorBlockSponsor',
+      'enableSponsorBlockIntro',
+      'enableSponsorBlockOutro',
+      'enableSponsorBlockInteraction',
+      'enableSponsorBlockSelfPromo',
+      'enableSponsorBlockMusicOfftopic',
+      'enableSponsorBlockPreview'
+    ];
+    for (const key of keys) {
+      const l = document.createElement('label');
+      const i = document.createElement('input');
+      i.type = 'checkbox';
+      i.checked =
+        key === 'liquidGlass' ||
+        key === 'enableAdBlock' ||
+        key === 'enableSponsorBlock';
+      l.append(i, document.createTextNode(configGetDesc(key)));
+      document.querySelector('#options').append(l);
+    }
+    document.querySelector('input').focus();
+  </script>
+</html>
