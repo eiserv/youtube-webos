@@ -88,7 +88,8 @@
 }
 
 .tvlight-glass .ytLrGuide,
-.tvlight-glass ytlr-guide-renderer {
+.tvlight-glass ytlr-guide-renderer,
+.tvlight-glass ytlr-guide-response {
   background: linear-gradient(
     90deg,
     rgba(24, 33, 50, 0.98),
@@ -102,6 +103,34 @@
   border-radius: 2rem;
   background-color: #dcecff;
   color: #182132;
+}
+
+.tvlight-glass ytlr-app-background-container {
+  background: linear-gradient(135deg, #27384e, #141b29 65%);
+}
+
+.tvlight-glass ytlr-search-text-box {
+  border: 1px solid var(--glass-edge);
+  border-radius: 2rem;
+  background: linear-gradient(
+    145deg,
+    rgba(121, 149, 180, 0.38),
+    rgba(24, 33, 50, 0.9)
+  );
+}
+
+.tvlight-glass ytlr-guide-entry-renderer {
+  border-radius: 1rem;
+}
+
+.tvlight-glass ytlr-guide-entry-renderer.zylon-focus {
+  background: rgba(220, 236, 255, 0.16);
+  box-shadow: inset 0 0 0 1px var(--glass-edge);
+}
+
+/* Keep microphone search out of this personal fork, even with the skin off. */
+ytlr-search-voice {
+  display: none !important;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -10,9 +10,14 @@ features remain intact. This still uses YouTube's TV web interface and contacts
 YouTube/Google; SponsorBlock contacts its own service. It is not an offline or
 tracking-free YouTube client.
 
-Open options with the green remote button. Liquid Glass can be switched off
+Open options with the green remote button, or hold OK on YouTube in the TVLight
+launcher and choose "YouTube-Einstellungen". Liquid Glass can be switched off
 there independently of ad blocking. On remotes without colour buttons, webOS's
 More Actions menu may expose them; the TVLight remote tools can also send GREEN.
+
+Microphone search is disabled in the YouTube URL and hidden independently of the
+appearance toggle. Typed search and playback remain available. This complements
+the separate TVLight system block; it does not disable microphone hardware.
 
 Build: `pnpm install --frozen-lockfile`, `pnpm run build`, `pnpm run lint:tsc`,
 `pnpm run test:compat`, `pnpm run package`.

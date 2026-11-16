@@ -176,7 +176,7 @@ function showOptionsPanel(visible) {
   if (visible && !optionsPanelVisible) {
     console.debug('Showing and focusing options panel!');
     optionsPanel.style.display = 'block';
-    optionsPanel.focus();
+    optionsPanel.querySelector('input').focus();
     optionsPanelVisible = true;
   } else if (!visible && optionsPanelVisible) {
     console.debug('Hiding options panel!');

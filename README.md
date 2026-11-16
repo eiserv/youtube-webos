@@ -1,3 +1,8 @@
+> **TVLight Liquid Glass fork:** This fork adds the optional TVLight appearance and
+> direct access to options from the TVLight launcher. See [TVLIGHT.md](TVLIGHT.md).
+> [Installable releases](https://github.com/eiserv/youtube-webos/releases) include
+> the fork IPK and a selected OSS Homebrew catalog (`tvlight-apps.json`).
+
 <h1 align="center">
   YouTube Ad-Free
 </h1>
