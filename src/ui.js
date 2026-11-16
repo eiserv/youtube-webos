@@ -119,8 +119,10 @@ function createOptionsPanel() {
   );
 
   const elmHeading = document.createElement('h1');
-  elmHeading.textContent = 'webOS YouTube Extended';
+  elmHeading.textContent = 'YouTube · Liquid Glass';
   elmContainer.appendChild(elmHeading);
+
+  elmContainer.appendChild(createConfigCheckbox('liquidGlass'));
 
   elmContainer.appendChild(createConfigCheckbox('enableAdBlock'));
   elmContainer.appendChild(createConfigCheckbox('upgradeThumbnails'));

@@ -1,0 +1,111 @@
+/* TVLight: cool glass surfaces, broad focus rings, quiet chrome.
+   Layered gradients approximate the launcher glass without a blur pass.
+   Keep player video/shadows untouched and retain YouTube's focus geometry. */
+.tvlight-glass {
+  --glass-base: #182132;
+  --glass-edge: rgba(225, 239, 255, 0.28);
+  --glass-focus: #dcecff;
+}
+
+.tvlight-glass .ytaf-ui-container {
+  position: fixed;
+  top: 6%;
+  bottom: 6%;
+  left: 16%;
+  right: 16%;
+  overflow-y: auto;
+  background: linear-gradient(
+    145deg,
+    rgba(100, 126, 154, 0.95),
+    rgba(24, 33, 50, 0.98) 65%
+  );
+  backdrop-filter: none;
+  border: 1px solid var(--glass-edge);
+  border-radius: 2rem;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.25),
+    0 1rem 3rem rgba(0, 0, 0, 0.35);
+  padding: 1.6rem 2rem 2.4rem;
+  font-family: 'LG Smart UI', Arial, sans-serif;
+  color: #f5f8ff;
+}
+
+.tvlight-glass .ytaf-ui-container h1 {
+  text-align: left;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin-bottom: 1rem;
+}
+
+.tvlight-glass .ytaf-ui-container label {
+  border-bottom: 1px solid rgba(225, 239, 255, 0.12);
+  padding: 0.55rem 0.65rem;
+  border-radius: 0.65rem;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.tvlight-glass .ytaf-ui-container input[type='checkbox'] {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: 0.35rem;
+}
+
+.tvlight-glass .ytaf-ui-container :focus {
+  outline: 3px solid var(--glass-focus);
+  outline-offset: 3px;
+  background-color: rgba(220, 236, 255, 0.15);
+}
+
+.tvlight-glass .ytaf-ui-container blockquote {
+  margin: 0.7rem 0 1rem 1.5rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--glass-edge);
+}
+
+.tvlight-glass .ytaf-ui-version {
+  position: static;
+  text-align: right;
+  margin-top: 0.7rem;
+  color: #d1deed;
+}
+
+.tvlight-glass .ytaf-notification-container .message {
+  background: linear-gradient(130deg, #445872, #182132);
+  border: 1px solid var(--glass-edge);
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.3);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.tvlight-glass ytlr-tile-header-renderer,
+.tvlight-glass .ytLrTileHeaderRenderer {
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.tvlight-glass .ytLrGuide,
+.tvlight-glass ytlr-guide-renderer {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 33, 50, 0.98),
+    rgba(24, 33, 50, 0.9)
+  );
+  border-right: 1px solid var(--glass-edge);
+}
+
+.tvlight-glass .ytLrGuideEntryRenderer.zylon-focus,
+.tvlight-glass .ytLrChipButtonRenderer.zylon-focus {
+  border-radius: 2rem;
+  background-color: #dcecff;
+  color: #182132;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tvlight-glass .ytaf-notification-container .message {
+    transition: none;
+  }
+}

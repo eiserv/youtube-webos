@@ -1,6 +1,6 @@
 {
   "name": "youtube-webos",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Ad-free YouTube app for webOS",
   "type": "module",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "lint:prettier": "prettier --check .",
     "lint:all": "pnpm run \"/^lint:(?!all)/\""
   },
-  "repository": "github:webosbrew/youtube-webos",
+  "repository": "github:eiserv/youtube-webos",
   "license": "GPL-3.0-only",
   "bugs": "https://github.com/webosbrew/youtube-webos/issues",
   "homepage": "https://github.com/webosbrew/youtube-webos#readme",
