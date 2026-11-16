@@ -1,14 +1,14 @@
 {
   "id": "youtube.leanback.v4",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "type": "web",
   "title": "YouTube Glass",
   "appDescription": "TVLight Liquid Glass fork with upstream ad blocking and SponsorBlock.",
   "sourceUrl": "https://github.com/eiserv/youtube-webos",
   "rootRequired": false,
-  "ipkUrl": "https://github.com/eiserv/youtube-webos/releases/download/v0.5.4-tvlight.1/youtube.leanback.v4_0.5.4_all.ipk",
+  "ipkUrl": "https://github.com/eiserv/youtube-webos/releases/download/v0.5.5-tvlight.2/youtube.leanback.v4_0.5.5_all.ipk",
   "ipkHash": {
-    "sha256": "5bf8620178ae6fb85b57804a833281033a144ffde1dd82324f8271a71a2ec6ae"
+    "sha256": "633dc4a500a0abd309d819dd84d18ac216b899af1ff9a5eacf3abedb7483a44f"
   },
-  "ipkSize": 504702
+  "ipkSize": 529378
 }
