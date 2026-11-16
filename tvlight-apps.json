@@ -1,0 +1,457 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 20,
+    "maxPage": 1,
+    "itemsTotal": 20
+  },
+  "packages": [
+    {
+      "id": "youtube.leanback.v4",
+      "title": "YouTube Glass",
+      "shortDescription": "TVLight Liquid Glass fork with upstream ad blocking and SponsorBlock.",
+      "iconUri": "https://raw.githubusercontent.com/eiserv/youtube-webos/main/assets/largeIcon.png",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "0.5.4",
+        "type": "web",
+        "title": "YouTube Glass",
+        "appDescription": "TVLight Liquid Glass fork with upstream ad blocking and SponsorBlock.",
+        "sourceUrl": "https://github.com/eiserv/youtube-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/eiserv/youtube-webos/releases/download/v0.5.4-tvlight.1/youtube.leanback.v4_0.5.4_all.ipk",
+        "ipkHash": {
+          "sha256": "5bf8620178ae6fb85b57804a833281033a144ffde1dd82324f8271a71a2ec6ae"
+        },
+        "ipkSize": 504702
+      }
+    },
+    {
+      "id": "org.webosbrew.cccbib",
+      "title": "CCCBib",
+      "iconUri": "https://raw.githubusercontent.com/volkovmqx/cccbib/main/assets/icon130.png",
+      "shortDescription": "Vorträge von media.ccc.de auf dem Fernseher.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/org.webosbrew.cccbib/full_description.html",
+      "requirements": {
+        "webosRelease": ">=4.0"
+      },
+      "manifest": {
+        "id": "org.webosbrew.cccbib",
+        "version": "1.1.0",
+        "type": "web",
+        "title": "CCCBib",
+        "appDescription": "Vorträge von media.ccc.de auf dem Fernseher.",
+        "iconUri": "https://raw.githubusercontent.com/volkovmqx/cccbib/main/assets/icon130.png",
+        "sourceUrl": "https://github.com/volkovmqx/cccbib",
+        "ipkUrl": "https://github.com/volkovmqx/cccbib/releases/download/v1.1.0/org.webosbrew.cccbib_1.1.0_all.ipk",
+        "ipkHash": {
+          "sha256": "636a23bccbd431e0e0c72f8959a253567821edae87fb82b43833118b982196f1"
+        }
+      }
+    },
+    {
+      "id": "org.jellyfin.webos",
+      "title": "Jellyfin",
+      "iconUri": "https://github.com/jellyfin/jellyfin-webos/raw/master/org.jellyfin.webos/submission-icon.png",
+      "shortDescription": "Filme und Serien vom eigenen Jellyfin-Server.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/org.jellyfin.webos/full_description.html",
+      "requirements": {
+        "webosRelease": ">=5.0"
+      },
+      "manifest": {
+        "id": "org.jellyfin.webos",
+        "version": "1.2.2",
+        "type": "web",
+        "title": "Jellyfin",
+        "appDescription": "Filme und Serien vom eigenen Jellyfin-Server.",
+        "iconUri": "https://github.com/jellyfin/jellyfin-webos/raw/master/org.jellyfin.webos/submission-icon.png",
+        "sourceUrl": "https://github.com/jellyfin/jellyfin-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/jellyfin/jellyfin-webos/releases/download/v1.2.2/org.jellyfin.webos_1.2.2_all.ipk",
+        "ipkHash": {
+          "sha256": "10127a8d0c41af1272ca932b81a34006672aa5de5320f0a3578fbca673490005"
+        }
+      }
+    },
+    {
+      "id": "org.litefin.app",
+      "title": "Litefin",
+      "iconUri": "https://raw.githubusercontent.com/MoazSalem/litefin/development/assets/icon-130.png",
+      "shortDescription": "Alternativer Jellyfin-Client. Benötigt einen eigenen Server.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/org.litefin.app/full_description.html",
+      "requirements": {
+        "webosRelease": ">=5.0"
+      },
+      "manifest": {
+        "id": "org.litefin.app",
+        "version": "2.0.20",
+        "type": "web",
+        "title": "Litefin",
+        "appDescription": "Alternativer Jellyfin-Client. Benötigt einen eigenen Server.",
+        "iconUri": "https://raw.githubusercontent.com/MoazSalem/litefin/development/assets/icon-130.png",
+        "sourceUrl": "https://github.com/MoazSalem/litefin",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/MoazSalem/litefin/releases/download/v2.0.20/Litefin-2.0.20-webOS-Legacy.ipk",
+        "ipkHash": {
+          "sha256": "da2b03ee7a2021fd633dbea70ae8dfcc09f7c793ff39dcd83dd2f19daa0b64a8"
+        }
+      }
+    },
+    {
+      "id": "com.limelight.webos",
+      "title": "Moonlight",
+      "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
+      "shortDescription": "PC-Spiele vom eigenen Sunshine-/GameStream-Rechner streamen. Gamepad empfohlen.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/com.limelight.webos/full_description.html",
+      "manifest": {
+        "id": "com.limelight.webos",
+        "version": "1.6.36",
+        "type": "native",
+        "title": "Moonlight",
+        "appDescription": "PC-Spiele vom eigenen Sunshine-/GameStream-Rechner streamen. Gamepad empfohlen.",
+        "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
+        "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
+        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.6.36/com.limelight.webos_1.6.36_arm.ipk",
+        "ipkHash": {
+          "sha256": "74d9788be634b57fed0591e7e82c9e3d8856dc46d14d29998a481724299d8824"
+        },
+        "ipkSize": 1508072,
+        "installedSize": 4300994
+      }
+    },
+    {
+      "id": "org.mariotaku.ihsplay",
+      "title": "IHSplay",
+      "iconUri": "https://github.com/mariotaku/ihsplay/raw/master/deploy/webos/largeIcon.png",
+      "shortDescription": "Steam Remote Play vom eigenen PC.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/org.mariotaku.ihsplay/full_description.html",
+      "manifest": {
+        "id": "org.mariotaku.ihsplay",
+        "version": "0.2.12",
+        "type": "native",
+        "title": "IHSplay",
+        "iconUri": "https://github.com/mariotaku/ihsplay/raw/master/deploy/webos/largeIcon.png",
+        "sourceUrl": "https://github.com/mariotaku/ihsplay",
+        "ipkUrl": "https://github.com/mariotaku/ihsplay/releases/download/v0.2.12/org.mariotaku.ihsplay_0.2.12_arm.ipk",
+        "ipkHash": {
+          "sha256": "833c0103a03cb20f14ad497e77cf31dbaf8469fe842e6a3b8a76626dda1cbd45"
+        },
+        "ipkSize": 5227188,
+        "installedSize": 14454101,
+        "appDescription": "Steam Remote Play vom eigenen PC."
+      }
+    },
+    {
+      "id": "com.immich.webos",
+      "title": "Immich",
+      "iconUri": "https://raw.githubusercontent.com/aneeshtigga/immich-webos/main/public/largeIcon.png",
+      "shortDescription": "Eigene Fotos vom Immich-Server ansehen.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/com.immich.webos/full_description.html",
+      "requirements": {
+        "webosRelease": ">=5.0"
+      },
+      "manifest": {
+        "id": "com.immich.webos",
+        "version": "0.15.3",
+        "type": "web",
+        "title": "Immich",
+        "appDescription": "Eigene Fotos vom Immich-Server ansehen.",
+        "iconUri": "https://raw.githubusercontent.com/aneeshtigga/immich-webos/main/public/largeIcon.png",
+        "sourceUrl": "https://github.com/aneeshtigga/immich-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/aneeshtigga/immich-webos/releases/download/v0.15.3/com.immich.webos.ipk",
+        "ipkHash": {
+          "sha256": "fb86f54601d631944d2794e5f3fe7f7a42dbf84c2844ac30a0dfab3fb76993fc"
+        }
+      }
+    },
+    {
+      "id": "com.subsonic.player",
+      "title": "Subsonic Player",
+      "iconUri": "https://raw.githubusercontent.com/pando85/subsonic-player-webos/main/webos/assets/icon_160.png",
+      "shortDescription": "Musik vom eigenen Subsonic-/Navidrome-Server.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/com.subsonic.player/full_description.html",
+      "requirements": {
+        "webosRelease": ">=7.0"
+      },
+      "manifest": {
+        "appDescription": "Musik vom eigenen Subsonic-/Navidrome-Server.",
+        "iconUri": "https://raw.githubusercontent.com/pando85/subsonic-player-webos/main/webos/assets/icon_160.png",
+        "id": "com.subsonic.player",
+        "ipkHash": {
+          "sha256": "7ff33944e5ced45863a4d528821129c305b4ab3330232c03279d8626bfa18a43"
+        },
+        "ipkUrl": "https://github.com/pando85/subsonic-player-webos/releases/download/v1.0.1/com.subsonic.player_1.0.1_all.ipk",
+        "rootRequired": false,
+        "sourceUrl": "https://github.com/pando85/subsonic-player-webos",
+        "title": "Subsonic Player",
+        "type": "web",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "id": "me.mariotaku.gallery3d",
+      "title": "Gallery3D",
+      "iconUri": "https://raw.githubusercontent.com/mariotaku/Gallery3D/48385c4f7b219d74b4860aee22ae95721bc93261/webos/largeIcon.png",
+      "shortDescription": "Lokale Bilder als Galerie auf dem großen Bildschirm.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/me.mariotaku.gallery3d/full_description.html",
+      "manifest": {
+        "id": "me.mariotaku.gallery3d",
+        "version": "1.0.0",
+        "type": "native",
+        "title": "Gallery3D",
+        "iconUri": "https://raw.githubusercontent.com/mariotaku/Gallery3D/48385c4f7b219d74b4860aee22ae95721bc93261/webos/largeIcon.png",
+        "sourceUrl": "https://github.com/mariotaku/Gallery3D",
+        "ipkUrl": "https://github.com/mariotaku/Gallery3D/releases/download/v1.0.0/me.mariotaku.gallery3d_1.0.0_arm.ipk",
+        "ipkHash": {
+          "sha256": "d51e4de176b1a42f54b9c9cb1806bd25d86ccdda62f28f9a008c1e468648aca5"
+        },
+        "ipkSize": 2990842,
+        "installedSize": 5388612,
+        "appDescription": "Lokale Bilder als Galerie auf dem großen Bildschirm."
+      }
+    },
+    {
+      "id": "com.gabrielecirulli.app2048.webos",
+      "title": "2048",
+      "iconUri": "https://raw.githubusercontent.com/Kzuismee/2048-Port-for-WebOS/main/com.gabrielecirulli.app2048.webos/icon.png",
+      "shortDescription": "Puzzle direkt mit dem Steuerkreuz spielen.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/com.gabrielecirulli.app2048.webos/full_description.html",
+      "requirements": {
+        "webosRelease": ">=4.0"
+      },
+      "manifest": {
+        "id": "com.gabrielecirulli.app2048.webos",
+        "version": "1.0.0",
+        "type": "web",
+        "title": "2048 Port for WebOS",
+        "appDescription": "Puzzle direkt mit dem Steuerkreuz spielen.",
+        "iconUri": "https://raw.githubusercontent.com/Kzuismee/2048-Port-for-WebOS/main/com.gabrielecirulli.app2048.webos/icon.png",
+        "sourceUrl": "https://github.com/Kzuismee/2048-Port-for-WebOS",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/Kzuismee/2048-Port-for-WebOS/releases/download/1.0.0/com.gabrielecirulli.app2048.webos_1.0.0_all.ipk",
+        "ipkHash": {
+          "sha256": "814f4e95dd9917e240637df7bf91396498e00d92f2fd1f7993a27c3e0e90db19"
+        }
+      }
+    },
+    {
+      "id": "org.scummvm.scummvm",
+      "title": "ScummVM",
+      "iconUri": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/dists/emscripten/assets/scummvm-192.png",
+      "shortDescription": "Adventure-Engine. Eigene unterstützte Spieldateien erforderlich.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/org.scummvm.scummvm/full_description.html",
+      "manifest": {
+        "id": "org.scummvm.scummvm",
+        "version": "1.3.0",
+        "type": "native",
+        "title": "ScummVM",
+        "appDescription": "Adventure-Engine. Eigene unterstützte Spieldateien erforderlich.",
+        "iconUri": "https://raw.githubusercontent.com/scummvm/scummvm/v2026.3.0/dists/emscripten/assets/scummvm-192.png",
+        "sourceUrl": "https://github.com/RF1705/scummvm-webos",
+        "ipkUrl": "https://github.com/RF1705/scummvm-webos/releases/download/scummvm_2026.3.0_webos_1.3.0/org.scummvm.scummvm_1.3.0_arm.ipk",
+        "ipkHash": {
+          "sha256": "7160edef1667a1f76fb0573cd7a44d714a423e9b3c8ef4d664822287a3601326"
+        },
+        "ipkSize": 24641862
+      }
+    },
+    {
+      "id": "com.leondrolio.x.openttd",
+      "title": "OpenTTD",
+      "iconUri": "https://github.com/7coil/webos-openttd/raw/webos/os/webos/public/icon.png",
+      "shortDescription": "Transport-Simulation. Tastatur und Maus empfohlen.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/com.leondrolio.x.openttd/full_description.html",
+      "manifest": {
+        "id": "com.leondrolio.x.openttd",
+        "version": "15.0.1",
+        "type": "native",
+        "title": "OpenTTD 15.0-beta3",
+        "appDescription": "Transport-Simulation. Tastatur und Maus empfohlen.",
+        "iconUri": "https://github.com/7coil/webos-openttd/raw/webos/os/webos/public/icon.png",
+        "sourceUrl": "https://github.com/7coil/webos-openttd",
+        "ipkUrl": "https://github.com/7coil/webos-openttd/releases/download/webos-15.0.1/com.leondrolio.x.openttd_15.0.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "ce0f41fb07c8d28c55ed89ee086fe1cf2bd7a75c4c000ac05485de3d04c7359b"
+        },
+        "ipkSize": 173884886,
+        "installedSize": 409899008
+      }
+    },
+    {
+      "id": "com.retroarch.webos",
+      "title": "RetroArch",
+      "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos/webos/icon160.png",
+      "shortDescription": "Emulator-Frontend. Eigene Spiele und meistens ein Gamepad erforderlich.",
+      "fullDescriptionUrl": "https://repo.webosbrew.org/api/apps/com.retroarch.webos/full_description.html",
+      "manifest": {
+        "id": "com.retroarch.webos",
+        "version": "1.22.2",
+        "type": "native",
+        "title": "RetroArch",
+        "appDescription": "Emulator-Frontend. Eigene Spiele und meistens ein Gamepad erforderlich.",
+        "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos/webos/icon160.png",
+        "sourceUrl": "https://github.com/webosbrew/RetroArch",
+        "ipkUrl": "https://github.com/webosbrew/RetroArch/releases/download/v1.22.2/com.retroarch.webos_1.22.2_arm.ipk",
+        "ipkHash": {
+          "sha256": "0b8ead78b49f02097986a14776d1d90ce856184a11290e8c3640f1001b02d4e3"
+        },
+        "ipkSize": 4659060,
+        "installedSize": 13379941
+      }
+    },
+    {
+      "id": "com.aurora.gamestream",
+      "title": "Aurora",
+      "iconUri": "https://raw.githubusercontent.com/GuiDev1994/aurora-tv/main/deploy/webos/icon.png",
+      "shortDescription": "Weiterer GameStream-Client. Der 60-Hz-TV nutzt keine 120-Hz-Funktionen.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/aurora-tv.html",
+      "manifest": {
+        "id": "com.aurora.gamestream",
+        "version": "1.3.0",
+        "type": "native",
+        "title": "Aurora",
+        "appDescription": "Weiterer GameStream-Client. Der 60-Hz-TV nutzt keine 120-Hz-Funktionen.",
+        "iconUri": "https://raw.githubusercontent.com/GuiDev1994/aurora-tv/main/deploy/webos/icon.png",
+        "sourceUrl": "https://github.com/GuiDev1994/aurora-tv",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/GuiDev1994/aurora-tv/releases/latest/download/com.aurora.gamestream_1.3.0_arm.ipk",
+        "ipkHash": {
+          "sha256": "d7a7623b05dd604b3fd5ae27af0f93a59a129fa2ae193598c3b58e5835835c54"
+        },
+        "ipkSize": 1924766,
+        "installedSize": 4003958
+      }
+    },
+    {
+      "id": "com.github.afonsojramos.magicmapper",
+      "title": "Magic Mapper",
+      "iconUri": "https://github.com/afonsojramos/magic-mapper-webos/releases/latest/download/largeIcon.png",
+      "shortDescription": "Fernbedienungstasten untersuchen und neu zuordnen. Benötigt Root; Belegung mit dem TVLight-Schnellmenü abstimmen.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/magic-mapper.html",
+      "manifest": {
+        "id": "com.github.afonsojramos.magicmapper",
+        "version": "1.1.2",
+        "type": "web",
+        "title": "Magic Mapper",
+        "appDescription": "Fernbedienungstasten untersuchen und neu zuordnen. Benötigt Root; Belegung mit dem TVLight-Schnellmenü abstimmen.",
+        "iconUri": "https://github.com/afonsojramos/magic-mapper-webos/releases/latest/download/largeIcon.png",
+        "sourceUrl": "https://github.com/afonsojramos/magic-mapper-webos",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/afonsojramos/magic-mapper-webos/releases/download/v1.1.2/com.github.afonsojramos.magicmapper_1.1.2_all.ipk",
+        "ipkHash": {
+          "sha256": "b7981a3a56e0782f057a181298442a6aebf387060b9028b0a5bc1eaa1d3841ed"
+        }
+      }
+    },
+    {
+      "id": "com.sostk.nativejelly",
+      "title": "Native Jelly",
+      "iconUri": "https://raw.githubusercontent.com/sostk/native-jelly/main/pkg/icon160.png",
+      "shortDescription": "Nativer Jellyfin-Client. Eigener Server erforderlich.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/native-jelly.html",
+      "manifest": {
+        "id": "com.sostk.nativejelly",
+        "version": "0.10.0",
+        "type": "native",
+        "title": "Native Jelly",
+        "appDescription": "Nativer Jellyfin-Client. Eigener Server erforderlich.",
+        "iconUri": "https://raw.githubusercontent.com/sostk/native-jelly/main/pkg/icon160.png",
+        "sourceUrl": "https://github.com/sostk/native-jelly",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/sostk/native-jelly/releases/latest/download/com.sostk.nativejelly_0.10.0_arm.ipk",
+        "ipkHash": {
+          "sha256": "c6e8f5ba448f9e970d8335ab33c2f945b68d22b65d073f9b14fb5bdd4eb33aff"
+        },
+        "ipkSize": 21458406,
+        "installedSize": 42504
+      }
+    },
+    {
+      "id": "com.larrysweb.oscarcam",
+      "title": "Oscar Cam",
+      "iconUri": "https://larrysweb.github.io/oscar-cam/icon.png",
+      "shortDescription": "Lokales Kameraraster. Nur mit eigenen Kameras und gegebenenfalls go2rtc im Heimnetz sinnvoll.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/oscar-cam.html",
+      "manifest": {
+        "appDescription": "Lokales Kameraraster. Nur mit eigenen Kameras und gegebenenfalls go2rtc im Heimnetz sinnvoll.",
+        "iconUri": "https://larrysweb.github.io/oscar-cam/icon.png",
+        "id": "com.larrysweb.oscarcam",
+        "ipkHash": {
+          "sha256": "5270cbd552c3d1b568e4b6ca5309013f4e1f8466d955b4ce91d4c3ed9c1602c6"
+        },
+        "ipkSize": 212586,
+        "ipkUrl": "https://larrysweb.github.io/oscar-cam/com.larrysweb.oscarcam_0.1.4_all.ipk",
+        "requirements": {
+          "webosRelease": ">=5.0"
+        },
+        "rootRequired": false,
+        "sourceUrl": "https://github.com/larrysweb/oscar-cam",
+        "title": "Oscar Cam",
+        "type": "web",
+        "version": "0.1.4"
+      }
+    },
+    {
+      "id": "io.github.danzig666.remotedesktv",
+      "title": "RustCouch",
+      "iconUri": "https://raw.githubusercontent.com/danzig666/webos-rustdesk-client/homebrew-repo/icon.png",
+      "shortDescription": "RustDesk-Client für den Zugriff vom TV auf den eigenen Rechner.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/rustcouch.html",
+      "manifest": {
+        "id": "io.github.danzig666.remotedesktv",
+        "version": "0.11.2",
+        "type": "native",
+        "title": "RustCouch",
+        "appDescription": "RustDesk-Client für den Zugriff vom TV auf den eigenen Rechner.",
+        "iconUri": "https://raw.githubusercontent.com/danzig666/webos-rustdesk-client/homebrew-repo/icon.png",
+        "sourceUrl": "https://github.com/danzig666/webos-rustdesk-client",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/danzig666/webos-rustdesk-client/releases/download/v0.11.2/io.github.danzig666.remotedesktv_0.11.2_arm.ipk",
+        "ipkHash": {
+          "sha256": "82e81ecacd7f6d2d8f8f87b298d69517e5b0f61aa952e85f2744e0f7000f7de8"
+        }
+      }
+    },
+    {
+      "id": "com.pulp.dominochain",
+      "title": "Domino-Chain",
+      "iconUri": "https://raw.githubusercontent.com/pulpoff/webos-domino-chain/main/app/largeIcon.png",
+      "shortDescription": "Domino-Puzzles als nativer TV-Port. Auf diesem Modell noch nicht getestet.",
+      "manifest": {
+        "id": "com.pulp.dominochain",
+        "version": "0.2.1",
+        "type": "native",
+        "title": "Domino-Chain",
+        "appDescription": "Domino-Puzzles als nativer TV-Port. Auf diesem Modell noch nicht getestet.",
+        "iconUri": "https://raw.githubusercontent.com/pulpoff/webos-domino-chain/main/app/largeIcon.png",
+        "sourceUrl": "https://github.com/pulpoff/webos-domino-chain",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/pulpoff/webos-domino-chain/releases/download/v0.2.1/com.pulp.dominochain_0.2.1_all.ipk",
+        "ipkHash": {
+          "sha256": "2868f337a865f4a39c49887bba6e921935a7e3ad83bd0c3442899fece53433cb"
+        }
+      }
+    },
+    {
+      "id": "com.pulp.brkrs",
+      "title": "brkrs",
+      "iconUri": "https://raw.githubusercontent.com/pulpoff/webos-brkrs/main/app/largeIcon.png",
+      "shortDescription": "Brick-Breaker als nativer TV-Port. Auf diesem Modell noch nicht getestet.",
+      "manifest": {
+        "id": "com.pulp.brkrs",
+        "version": "0.1.0",
+        "type": "native",
+        "title": "brkrs",
+        "appDescription": "Brick-Breaker als nativer TV-Port. Auf diesem Modell noch nicht getestet.",
+        "iconUri": "https://raw.githubusercontent.com/pulpoff/webos-brkrs/main/app/largeIcon.png",
+        "sourceUrl": "https://github.com/pulpoff/webos-brkrs",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/pulpoff/webos-brkrs/releases/download/v0.1.0/com.pulp.brkrs_0.1.0_all.ipk",
+        "ipkHash": {
+          "sha256": "0861b7a26f9a9d53948ff6bdcb9eda25a409fa2fb1e9b11c764cba786e68e99c"
+        }
+      }
+    }
+  ]
+}
